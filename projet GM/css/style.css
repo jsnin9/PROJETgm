@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+/* Barre de navigation */
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, 0.70);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+
+}
+
+nav img {
+	padding-left: 0px;
+	padding-top: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 22%;
+	height: 15%;
+}
+
+nav .onglets {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav .onglets p {
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 10px;
+	padding-right: 20px;
+	padding-top: 50px;
+	cursor: pointer;
+}
+
+nav .onglets p a {
+	text-decoration: none;
+	color: white;
+}
+
+.fas{
+	color: white;
+	margin-right: 10px;
+}
+
+.ban {
+	width: 100%;
+	margin-top: 141px;
+	margin-bottom: -5px;
+}

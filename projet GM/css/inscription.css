@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+.box{
+
+  margin-top: 20%;
+}
+
+form{
+  
+  background-color: #fff; /* couleur blanche background*/
+  padding: 20px 70px; /* marge interieur*/
+  border-radius: 10px; /* arrondir les angles*/
+  min-width: 300px; /* taille min du formulaire*/
+}
+
+form h2{
+  color:#52cf18; /*changer couleur titre principal*/
+  font-size: 35px;
+}
+
+form .inscription{
+ margin-left: 35%;
+  display: flex;
+  gap: 20px;
+}
+
+form .inscription .left{
+  display: flex;
+  flex-direction: column; /*mettre les imput en colonne*/
+  margin-bottom:  5px;
+}
+
+form .inscription .right{
+  display: flex;
+  flex-direction: column; /*mettre les imput en colonne*/
+  margin-bottom:  5px;
+}
+
+.left2 input{
+  
+  background-color: #f5f5f5; /*couleur grise dans les inputs*/
+  margin-bottom: 10px; /*séparer les inputs*/
+  padding: 5px; /* aggrandi les inputs*/
+  font-size: 20px; /*aggrandi taille écriture*/
+  border-radius: 5px; /*arrondi les bords des inputs*/
+  outline: none; /*enlève la ligne rouge quand on clique sur les inputs*/
+  border: 1px solid #52cf18;
+}
+
+.right2 input {
+
+  background-color: #f5f5f5; /*couleur grise dans les inputs*/
+  margin-bottom: 10px; /*séparer les inputs*/
+  padding: 5px; /* aggrandi les inputs*/
+  font-size: 20px; /*aggrandi taille écriture*/
+  border-radius: 5px; /*arrondi les bords des inputs*/
+  outline: none; /*enlève la ligne rouge quand on clique sur les inputs*/
+  border: 1px solid #52cf18;
+
+}
+
+form button{
+  padding: 5px 5px; /* augmente la taille du bouton*/
+  border: none; /* enleve la bordure*/
+  border-radius: 5px;  /*arrondi le bouton*/
+  font-size: 15px; /* aggrandi taille de l'écriture*/
+  color: #fff; /* ecriture en blanche*/
+  background-color : #52cf18; /* fond orangé*/
+  outline: none; /* enleve la ligne rouge qd on appuie*/
+  cursor: pointer; /*change le curseur*/
+  margin-top: 70%;
+  margin-left: 10px;
+  text-decoration: none;
+  display: flex;
+  
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+footer{
+  background-color: #000; /*fond noir*/
+  color: #fff; /*couleur blanche de l'ecriture*/
+  padding: 5px 5px ;/*espacé l'étriture des bords haut/bas*/
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+footer h2{
+  font-family: 'playfair display', sans-serif; /*change police titre bas de pages*/
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.footer{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 40%;
+}
+
+.coordonnees{
+  margin-left: 10%;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+	margin: 0px;
+  justify-content: center;
+  text-align: center;
+	background-color: white;
+}
+
+/* Barre de navigation */
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, 0.70);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+
+}
+
+nav img {
+	padding-left: 35px;
+	padding-top: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 22%;
+	height: 22%;
+}
+
+nav .onglets {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav .onglets p {
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 10px;
+	padding-right: 20px;
+	padding-top: 50px;
+	cursor: pointer;
+}
+
+nav .onglets p a {
+	text-decoration: none;
+	color: white;
+}
+
+.fas{
+	color: white;
+	margin-right: 10px;
+}
+
+.ban {
+	width: 100%;
+	margin-top: 108px;
+}
+
+.bas{
+  margin-top: 20%;
+}
+
+

@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+footer{
+  background-color: #000; /*fond noir*/
+  color: #fff; /*couleur blanche de l'ecriture*/
+  padding: 5px 5px ;/*espacé l'étriture des bords haut/bas*/
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+footer h2{
+  font-family: 'playfair display', sans-serif; /*change police titre bas de pages*/
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.footer{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 40%;
+}
+
+.coordonnees{
+  margin-left: 10%;
+}
+
+
+
+
+

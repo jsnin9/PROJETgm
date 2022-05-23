@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body, html{
+
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.box{
+  display: flex;
+  justify-content: center; /*centrer le texte*/
+  align-items: center; /*couleur arrière*/
+  font-family: 'Roboto', sans-serif; /*changer police*/
+  background: cover;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 4.5%;
+}
+
+
+
+
+
+
+
+
+
+form{
+  margin-top: 20px; /*marge haut*/
+  background-color: #fff; /* couleur blanche background*/
+  padding: 40px 70px; /* marge interieur*/
+  border-radius: 10px; /* arrondir les angles*/
+  min-width: 300px; /* taille min du formulaire*/
+
+}
+
+form h1{
+  color: #52cf18; /*changer couleur titre principal*/
+  text-align: center; /* centrer titre*/
+}
+
+form .réseaux{
+  margin-top: -10px;
+  display: flex; /*mettre les icones sur la même ligne*/
+  flex-wrap:wrap;
+  justify-content:center; /* centrer les icones*/
+}
+
+form .réseaux p{
+  padding: 5px; /*espacé les icones*/
+  margin-left: 10px; /* eŝacé les icones*/
+  border: 1px solid #52cf18; /* ajouté une bordure qui entoure les icones*/
+  border-radius: 100%; /* arrondir la bordure*/
+  width: 20px; /* même dimensions pour toutes les icones*/
+  text-align: center; /*centrer les icones dans la bordure*/
+  cursor: pointer; /* changer ke curseur sur les icones*/
+}
+
+form p.choisir-email{
+  text-align: center; /*centré texte*/
+}
+
+form .inputs{
+  display: flex;
+  flex-direction: column; /*mettre les imput en colonne*/
+}
+
+form .inputs input[type = "email"], input[type="password"]{
+  padding: 15px; /* aggrandir*/
+  border-radius: 5px; /* arrondir*/
+  border: none; /* supp bordure*/
+  background-color: #f2f2f2; /*couleur de fond grise*/
+  margin-bottom: 15px; /* separer les inputs*/
+  outline: none; /*enlève la bordure rouge quznd on clique dessus*/
+  border: 1px solid #52cf18;
+}
+
+form p.inscription{
+  font-size: 15px; /*changer la taille de l'ecriture*/
+  margin-bottom: 20px; /* espace texte bordure bas */
+  color: #878787; /* changer couleur du texte*/
+  text-align: center; /* centrer texte*/
+}
+
+form p.inscription span{
+  color: #52cf18; /* changer couleur compte et crée*/
+}
+
+form button{
+  padding: 15px 20px; /* augmente la taille du bouton*/
+  border: none; /* enleve la bordure*/
+  border-radius: 5px;  /*arrondi le bouton*/
+  font-size: 15px; /* aggrandi taille de l'écriture*/
+  color: #fff; /* ecriture en blanche*/
+  background-color : #52cf18; /* fond orangé*/
+  outline: none; /* enleve la ligne rouge qd on appuie*/
+  cursor: pointer; /*change le curseur*/
+}
